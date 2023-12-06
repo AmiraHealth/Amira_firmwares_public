@@ -15,7 +15,8 @@ To flash firmware, you need to use either NRF Connect app or nrfutil command lin
 
 ## Flashing firmware using nrfjprog command line tool
 1. Download and install nrfjprog command line tool from [here](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools)
-2. To flash the board `nrfjprog -f nrf52 --program HEXFILE_PATH --sectorerase`
+2. To flash the board `nrfjprog -f nrf52 --sectorerase --verify --program HEXFILE_PATH`
+*Ex: `nrfjprog -f nrf52 --sectorerase --verify --program amira_bracelet_v6-merged.hex`*
 3. To reset the board `nrfjprog -f nrf52 --reset`
 
 Board should be programmed, **press the power button 5sec** to turn it on.
