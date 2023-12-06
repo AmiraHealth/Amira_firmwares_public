@@ -14,6 +14,9 @@ To flash firmware, you need to use either NRF Connect app or nrfutil command lin
 6. Tap on Upload
 
 ## Flashing firmware using nrfjprog command line tool
-1. Download and install nrfjprog command line tool from https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools
-2. nrfjprog -f nrf52 --program HEXFILE_PATH --sectorerase
-3. nrfjprog -f nrf52 --reset
+1. Download and install nrfjprog command line tool from [here](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools)
+2. To flash the board `nrfjprog -f nrf52 --program HEXFILE_PATH --sectorerase`
+3. To reset the board `nrfjprog -f nrf52 --reset`
+
+Board should be programmed, **press the power button 5sec** to turn it on.
+
