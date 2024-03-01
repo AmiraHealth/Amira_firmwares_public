@@ -1,0 +1,8 @@
+# Ignore all files
+*
+
+# Re-include these specific files
+!.gitignore
+!hub_firmware.bin
+!bracelet_firmware.bin
+!README.md
